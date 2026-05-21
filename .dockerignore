@@ -1,0 +1,15 @@
+
+.git
+.gitignore
+*.md
+**/generate
+**/node_modules
+**/.git
+**/dist
+
+
+**/.next
+**/build
+**/coverage
+**/*.log
+**/.env

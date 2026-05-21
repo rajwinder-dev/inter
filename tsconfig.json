@@ -1,0 +1,18 @@
+{
+  "extends": "./tsconfig.base.json",
+  "files": [],
+  "references": [
+    {
+      "path": "packages/constants"
+    },
+    {
+      "path": "packages/schemas"
+    },
+    {
+      "path": "apps/frontend"
+    },
+    {
+      "path": "apps/backend"
+    }
+  ]
+}
