@@ -1,6 +1,7 @@
 import { createBrowserRouter } from "react-router"; // or "react-router-dom"
 import DeveloperLandingPage from "./features/home/HomePage";
 import AIAuditFormPage from "./features/form/AIAuditFormPage";
+import AuditResultsPage from "./features/result/AuditResultpage";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -12,7 +13,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/result",
-    element: <div>result page </div>,
+    element: <AuditResultsPage />,
   },
 ]);
 
