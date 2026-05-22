@@ -4,7 +4,10 @@
     "composite": true,
     "outDir": "dist",
     "rootDir": "src",
+    "noEmit": false,
     "tsBuildInfoFile": "dist/tsconfig.tsbuildinfo"
   },
-  "include": ["src"]
+  "include": [
+    "src/**/*"
+  ]
 }

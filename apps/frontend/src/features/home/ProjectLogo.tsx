@@ -9,7 +9,7 @@ export const ProjectLogo = () => {
         <Zap size={20} className="text-primary-foreground fill-current" />
       </div>
       <span className="font-heading text-xl font-bold tracking-tight">
-        Ticket<span className="text-primary italic">Flow</span>
+        Mint<span className="text-primary italic">AI</span>
       </span>
     </div>
   );

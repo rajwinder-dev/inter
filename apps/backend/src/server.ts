@@ -26,7 +26,6 @@ process.on("unhandledRejection", (err: Error) => {
     process.exit(1);
   });
 });
-
 const shutdown = async (signal: string) => {
   console.log(`\n👋 ${signal} RECEIVED. Shutting down gracefully...`);
   server.close(() => {

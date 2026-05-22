@@ -1,12 +1,14 @@
 import { createBrowserRouter } from "react-router"; // or "react-router-dom"
+import DeveloperLandingPage from "./features/home/HomePage";
+import AIAuditFormPage from "./features/form/AIAuditFormPage";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <div>Home page</div>,
+    element: <DeveloperLandingPage />,
   },
   {
-    path: "/calculate",
-    element: <div>calculate page</div>,
+    path: "/org",
+    element: <AIAuditFormPage />,
   },
   {
     path: "/result",

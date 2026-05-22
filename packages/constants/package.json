@@ -4,7 +4,7 @@
   "types": "./dist/index.d.ts",
   "scripts": {
     "build": "tsc -b",
-    "dev": "tsc -w"
+    "dev": "tsc -b -w"
   },
   "exports": {
     ".": {
